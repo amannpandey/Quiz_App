@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+
+
+    <string name="RadioButtonQuestionOneOptionOne">Hulk Buster</string>
+    <string name="RadioButtonQuestionOneOptionTwo">War Machine</string>
+    <string name="RadioButtonQuestionOneOptionThree">Mark 3</string>
+
+    <string name="RadioButtonQuestionTwoOptionOne">The Mandala Of Light</string>
+    <string name="RadioButtonQuestionTwoOptionTwo">The Eye Of Agamatto</string>
+    <string name="RadioButtonQuestionTwoOptionThree">Kun Lun</string>
+
+    <string name="RadioButtonQuestionThreeOptionOne">Vasily and Lynda Mihailovic</string>
+    <string name="RadioButtonQuestionThreeOptionTwo">Anatoly and Anna Ransakhov</string>
+    <string name="RadioButtonQuestionThreeOptionThree">Pietro and Wanda Maximoff</string>
+
+    <string name="RadioButtonQuestionFourOptionOne">The Mind Stone</string>
+    <string name="RadioButtonQuestionFourOptionTwo">The Space Stone</string>
+    <string name="RadioButtonQuestionFourOptionThree">The Time Stone</string>
+
+    <string name="Typehere">Type Your Answer Here in Small Letter</string>
+
+    <string name="RadioButtonQuestionSevenOptionOne">8</string>
+    <string name="RadioButtonQuestionSevenOptionTwo">4</string>
+    <string name="RadioButtonQuestionSevenOptionThree">6</string>
+
+    <string name="CheckBoxQuestionEightOptionOne">Black Widow</string>
+    <string name="CheckBoxQuestionEightOptionTwo">SpiderMan</string>
+    <string name="CheckBoxQuestionEightOptionThree">Falcon</string>
+    <string name="CheckBoxQuestionEightOptionFour">Vision</string>
+
+
+    <string name="AnswerFive">falcon</string>
+    <string name="AnswerSix">virginia</string>
+
+</resources>

@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Scroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/quiz"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00555555"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Marvel Quiz App"
+            android:textSize="35sp"
+            android:fontFamily="cursive"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary">
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="#00555555"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:textStyle="bold"
+                android:text="1. James Rhodes, Tony Stark's bast friend, is known as what when he puts on his suit"
+                android:textColor="@color/textColor"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/jamesrhodes" />
+
+
+            <RadioGroup
+                android:id="@+id/radioGroupOne"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:paddingLeft="10dp"
+                    android:text="Hulk Buster"
+                    android:textStyle="bold"
+                    android:textColor="@color/textColor"
+                    android:textSize="14sp" />
+
+                <RadioButton
+                    android:id="@+id/rb_CorrectAnswerOne"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:paddingLeft="10dp"
+                    android:textStyle="bold"
+                    android:text="War Machine"
+                    android:textColor="@color/textColor"
+                    android:textSize="14sp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:paddingLeft="10dp"
+                    android:text="Mark 3"
+                    android:textStyle="bold"
+                    android:textColor="@color/textColor"
+                    android:textSize="14sp" />
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="#00555555 "
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:textStyle="bold"
+                android:text="2. What is the name of the artifact (containing an infinity stone) that Stephen Strange uses to manipulate time?"
+                android:textColor="@color/textColor"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/time_stone"/>
+
+
+            <RadioGroup
+                android:id="@+id/radioGroupTwo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:paddingLeft="10dp"
+                    android:textStyle="bold"
+                    android:text="@string/RadioButtonQuestionTwoOptionOne"
+                    android:textColor="@color/textColor"
+                    android:textSize="14sp" />
+
+                <RadioButton
+                    android:id="@+id/rb_CorrectAnswerTwo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:paddingLeft="10dp"
+                    android:textStyle="bold"
+                    android:text="@string/RadioButtonQuestionTwoOptionTwo"
+                    android:textColor="@color/textColor"
+                    android:textSize="14sp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:paddingLeft="10dp"
+                    android:textStyle="bold"
+                    android:text="@string/RadioButtonQuestionTwoOptionThree"
+                    android:textColor="@color/textColor"
+                    android:textSize="14sp" />
+            </RadioGroup>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00555555"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:textStyle="bold"
+                android:text="3. Quicksilver and Scarlet Witch appear in Avengers: Age of Ultron. But what are their “real” names?"
+                android:textColor="@color/textColor"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/quicksilver_scarlet"/>
+
+            <RadioGroup
+                android:id="@+id/radioGroupThree"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:text="@string/RadioButtonQuestionThreeOptionOne"
+                    android:textColor="@color/textColor"
+                    android:textSize="14sp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:text="@string/RadioButtonQuestionThreeOptionTwo"
+                    android:textColor="@color/textColor"
+                    android:textSize="14sp" />
+
+                <RadioButton
+                    android:id="@+id/rb_CorrectAnswerThree"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:text="@string/RadioButtonQuestionThreeOptionThree"
+                    android:textColor="@color/textColor"
+                    android:textSize="14sp" />
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="#00555555"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:textStyle="bold"
+                android:text="4. Which Infinity Stone does Vision have embedded into his forehead?"
+                android:textColor="@color/textColor"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/vision"
+                android:scaleType="centerCrop"/>
+
+            <RadioGroup
+                android:id="@+id/radioGroupFour"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/rb_CorrectAnswerFour"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:text="@string/RadioButtonQuestionFourOptionOne"
+                    android:textColor="@color/textColor"
+                    android:textSize="14sp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:paddingLeft="10dp"
+                    android:textStyle="bold"
+                    android:text="@string/RadioButtonQuestionFourOptionTwo"
+                    android:textColor="@color/textColor"
+                    android:textSize="14sp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:paddingLeft="10dp"
+                    android:textStyle="bold"
+                    android:text="@string/RadioButtonQuestionFourOptionThree"
+                    android:textColor="@color/textColor"
+                    android:textSize="14sp" />
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="#00555555"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:textStyle="bold"
+                android:text="5. Sam Wilson is better known as?"
+                android:textColor="@color/textColor"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/samwilson"/>
+
+            <EditText
+                android:id="@+id/userResponse_AnswerFive"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:hint="@string/Typehere"
+                android:textColor="@color/textColor"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="#00555555"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:textStyle="bold"
+                android:text="6. What is “Pepper” Potts first name?( Hint: Begins with V )"
+                android:textColor="@color/textColor"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/pepperpotts"/>
+
+            <EditText
+                android:id="@+id/userResponse_AnswerSix"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:hint="@string/Typehere"
+                android:textColor="@color/textColor"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="#00555555"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:textStyle="bold"
+                android:text="7. How many Infinity Stones are there?"
+                android:textColor="@color/textColor"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/drstrange"/>
+
+            <RadioGroup
+                android:id="@+id/radioGroupFive"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:paddingLeft="10dp"
+                    android:textStyle="bold"
+                    android:text="@string/RadioButtonQuestionSevenOptionOne"
+                    android:textColor="@color/textColor"
+                    android:textSize="14sp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:paddingLeft="10dp"
+                    android:textStyle="bold"
+                    android:text="@string/RadioButtonQuestionSevenOptionTwo"
+                    android:textColor="@color/textColor"
+                    android:textSize="14sp" />
+
+                <RadioButton
+                    android:id="@+id/rb_CorrectAnswerSeven"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:paddingLeft="10dp"
+                    android:textStyle="bold"
+                    android:text="@string/RadioButtonQuestionSevenOptionThree"
+                    android:textColor="@color/textColor"
+                    android:textSize="14sp" />
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="#00555555"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:textStyle="bold"
+                android:text="8. Who all out of the following were in IRONMANs Team in Captain America: Civil War ?"
+                android:textColor="@color/textColor"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/civilwar"/>
+
+
+            <CheckBox
+                android:id="@+id/cb_CorrectAnswerEight_1"
+                style="@style/CustomCheckBoxStyle"
+                android:text="@string/CheckBoxQuestionEightOptionOne"
+                android:textColor="@color/textColor"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-medium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <CheckBox
+                android:id="@+id/cb_CorrectAnswerEight_2"
+                style="@style/CustomCheckBoxStyle"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/CheckBoxQuestionEightOptionTwo"
+                android:textColor="@color/textColor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <CheckBox
+                android:id="@+id/cb_WrongAnswerEight"
+                style="@style/CustomCheckBoxStyle"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/CheckBoxQuestionEightOptionThree"
+                android:textColor="@color/textColor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <CheckBox
+                android:id="@+id/cb_CorrectAnswerEight_3"
+                style="@style/CustomCheckBoxStyle"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/CheckBoxQuestionEightOptionFour"
+                android:textColor="@color/textColor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="cursive"
+                android:textStyle="bold"
+                android:onClick="SubmitResponse"
+                android:layout_margin="20dp"
+                android:textColor="@android:color/white"
+                android:background="@color/colorPrimary"
+                android:text="Submit" />
+
+            <Button
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="cursive"
+                android:textStyle="bold"
+                android:onClick="ResetQuiz"
+                android:textColor="@android:color/white"
+                android:layout_margin="20dp"
+                android:background="@color/colorPrimary"
+                android:id="@+id/all"
+                android:text="Reset" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
